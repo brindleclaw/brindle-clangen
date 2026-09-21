@@ -1,13 +1,7 @@
 {
     "name": "FreckledRecipe",
-    "layer_order": ["1", "2", "3", "4", "5"],
+    "layer_order": ["1", "2", "3", "4", ["5", "+opacity: 85"], ["6", "+opacity: 70"]],
     "layers": {
-        "8": {
-            "group_name": "FRECKLEDPATTERNBACK"
-        },
-        "7":{
-            "group_name": "FRECKLEDPATTERNBODY"
-        },
         "6": {
             "group_name": "FRECKLEDPATTERNGRAD",
             "color": "freckled_pattern_gradient_top"
@@ -35,8 +29,8 @@
     },
     "exceptions": [
         {
-            "colors": ["GBLUE", "GBLACK"],
-            "layer_order": ["1", "2", "3", "9", "10"],
+            "colors": ["GBLUE", "GBLACK", "SBLUE", "SBLACK", "STARNISHED", "SRED", "SGINGER", "SMARMALADE", "SYELLOW"],
+            "layer_order": ["1", "2", "3", "9", ["10", "+opacity: 75"], ["6", "+opacity: 50"]],
             "layers":
             {
                 "9":
