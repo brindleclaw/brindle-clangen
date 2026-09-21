@@ -29,7 +29,7 @@
     },
     "exceptions": [
         {
-            "colors": ["GBLUE", "GBLACK", "SBLUE", "SBLACK", "STARNISHED", "SRED", "SGINGER", "SMARMALADE", "SYELLOW"],
+            "colors": ["GBLUE", "GBLACK"],
             "layer_order": ["1", "2", "3", "9", ["10", "+opacity: 75"], ["6", "+opacity: 50"]],
             "layers":
             {
@@ -44,6 +44,10 @@
                     "color": "freckled_pattern_gradient_top"
                 }
             }
+        },
+        {
+            "colors": ["SBLUE", "SBLACK", "STARNISHED", "SRED", "SGINGER", "SMARMALADE", "SYELLOW"],
+            "layer_order": ["1", "2", "3", "4", ["5", "+opacity: 65"], ["6", "+opacity: 50"]]
         },
         {
             "colors": "DAWN",
