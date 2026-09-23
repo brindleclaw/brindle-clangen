@@ -26,10 +26,12 @@
             "PALEGINGER": "cream",
             "CHOCOLATE": "chocolate",
             "CHOCRUSSET": "chocolate",
+            "GCHOCOLATE": "chocolate",
             "LILAC": "lilac",
-            "ASH": "lilac",
+            "LILASH": "lilac",
             "CINNAMON": "cinnamon",
             "CINNTAWNY": "cinnamon",
+            "GCINNAMON": "cinnamon",
             "FAWN": "fawn",
             "FAWSALMON": "fawn"
         },

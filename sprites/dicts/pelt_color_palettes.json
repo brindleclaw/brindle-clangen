@@ -1099,6 +1099,50 @@
         "newborn_exotic_light_pattern": "#E8D0BF",
         "newborn_exotic_muzzle": "#A96B52"
 },
+    "GCHOCOLATE": {
+        "base": "#B38265",
+        "base_gradient_bottom": "#EBDED3",
+        "base_gradient_top": "#97694C",
+        "pattern": "#72432F",
+        "pattern_gradient_top": "#3F251E",
+        "pattern_fill": "#905C44",
+        "masked_light_pattern": "#EBDED3",
+
+        "newborn_base": "#B38265",
+        "newborn_gradient_bottom": "#EBDED3",
+        "newborn_gradient_top": "#97694C",
+        "newborn_pattern": "#72432F",
+        "newborn_pattern_gradient_top": "#3F251E",
+        "newborn_pattern_fill": "#905C44",
+
+        "smoke_base": "#B38265",
+        "smoke_base_gradient_top": "#97694C",
+        "smoke_base_gradient_bottom": "#EBDED3",
+        "smoke_pattern": "#72432F",
+        "smoke_pattern_gradient_top": "#3F251E",
+
+        "freckled_pattern_gradient_top": "#3F251E",
+
+        "exotic_base": "#B38265",
+        "exotic_base_gradient_bottom": "#EBDED3",
+        "exotic_base_gradient_top": "#97694C",
+        "exotic_pattern": "#72432F",
+        "exotic_pattern_gradient_top": "#3F251E",
+        "exotic_pattern_fill": "#905C44",
+        "exotic_pattern_fill_gradient_top": "#77452E",
+        "exotic_light_pattern": "#EBDED3",
+        "exotic_muzzle": "#905C44",
+
+        "newborn_exotic_base": "#B38265",
+        "newborn_exotic_gradient_bottom": "#EBDED3",
+        "newborn_exotic_gradient_top": "#97694C",
+        "newborn_exotic_pattern": "#72432F",
+        "newborn_exotic_pattern_gradient_top": "#3F251E",
+        "newborn_exotic_pattern_fill": "#905C44",
+        "newborn_exotic_pattern_fill_gradient_top": "#77452E",
+        "newborn_exotic_light_pattern": "#EBDED3",
+        "newborn_exotic_muzzle": "#905C44"
+},
     "LILAC": {
         "base": "#C7A38C",
         "base_gradient_bottom": "#E1CBBB",
@@ -1143,7 +1187,7 @@
         "newborn_exotic_light_pattern": "#CDC8C1",
         "newborn_exotic_muzzle": "#DCC9BF"
 },
-    "ASH": {
+    "LILASH": {
         "base": "#CFB7A6",
         "base_gradient_bottom": "#DCCEC3",
         "base_gradient_top": "#A79A94",
@@ -1274,6 +1318,50 @@
         "newborn_exotic_pattern_fill_gradient_top": "#885641",
         "newborn_exotic_light_pattern": "#E6D0BA",
         "newborn_exotic_muzzle": "#AE7454"
+},
+    "GCINNAMON": {
+        "base": "#C09370",
+        "base_gradient_bottom": "#E8DCCF",
+        "base_gradient_top": "#A4704F",
+        "pattern": "#905D41",
+        "pattern_gradient_top": "#683E2A",
+        "pattern_fill": "#88553C",
+        "masked_light_pattern": "#E8DCCF",
+
+        "newborn_base": "#C09370",
+        "newborn_gradient_bottom": "#E8DCCF",
+        "newborn_gradient_top": "#A4704F",
+        "newborn_pattern": "#905D41",
+        "newborn_pattern_gradient_top": "#683E2A",
+        "newborn_pattern_fill": "#88553C",
+
+        "smoke_base": "#C09370",
+        "smoke_base_gradient_top": "#A4704F",
+        "smoke_base_gradient_bottom": "#E8DCCF",
+        "smoke_pattern": "#905D41",
+        "smoke_pattern_gradient_top": "#683E2A",
+
+        "freckled_pattern_gradient_top": "#683E2A",
+
+        "exotic_base": "#C09370",
+        "exotic_base_gradient_bottom": "#E8DCCF",
+        "exotic_base_gradient_top": "#A4704F",
+        "exotic_pattern": "#905D41",
+        "exotic_pattern_gradient_top": "#683E2A",
+        "exotic_pattern_fill": "#9F6B4D",
+        "exotic_pattern_fill_gradient_top": "#88553C",
+        "exotic_light_pattern": "#E8DCCF",
+        "exotic_muzzle": "#905D41",
+
+        "newborn_exotic_base": "#C09370",
+        "newborn_exotic_gradient_bottom": "#E8DCCF",
+        "newborn_exotic_gradient_top": "#A4704F",
+        "newborn_exotic_pattern": "#905D41",
+        "newborn_exotic_pattern_gradient_top": "#683E2A",
+        "newborn_exotic_pattern_fill": "#9F6B4D",
+        "newborn_exotic_pattern_fill_gradient_top": "#88553C",
+        "newborn_exotic_light_pattern": "#E8DCCF",
+        "newborn_exotic_muzzle": "#905D41"
 },
     "FAWN": {
         "base": "#D4AB8F",

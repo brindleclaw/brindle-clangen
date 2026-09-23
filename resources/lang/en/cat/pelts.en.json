@@ -19,7 +19,7 @@
         },
         "GBLUE": {
             "one": "gray",
-            "many": "gray golden"
+            "many": "golden gray"
         },
         "SMBLACK": {
             "one": "black",
@@ -51,7 +51,7 @@
         },
         "GBLACK": {
             "one": "black",
-            "many": "black golden"
+            "many": "golden black"
         },
         "RED": {
             "one": "red",
@@ -99,15 +99,19 @@
         },
         "CHOCRUSSET": {
             "one": "chestnut",
-            "many": "russet brown"
+            "many": "russet-brown"
+        },
+        "GCHOCOLATE": {
+            "one": "chestnut",
+            "many": "golden chestnut"
         },
         "LILAC": {
             "one": "lilac",
             "many": "lilac"
         },
-        "ASH": {
+        "LILASH": {
             "one": "lilac",
-            "many": "ashen lilac"
+            "many": "ash-gray"
         },
         "CINNAMON": {
             "one": "sorrel",
@@ -115,7 +119,11 @@
         },
         "CINNTAWNY": {
             "one": "sorrel",
-            "many": "tawny brown"
+            "many": "tawny"
+        },
+        "GCINNAMON": {
+            "one": "sorrel",
+            "many": "golden sorrel"
         },
         "FAWN": {
             "one": "fawn",
@@ -123,7 +131,7 @@
         },
         "FAWSALMON": {
             "one": "fawn",
-            "many": "pinkish fawn"
+            "many": "pinkish-fawn"
         },
         "SingleColour": "single color",
         "SingleColour_long": "%{color}",
