@@ -151,6 +151,8 @@
         "Smoke_long": "%{color} smoke",
         "Mackerel": "mackerel",
         "Mackerel_long": "%{color} tabby",
+        "SparseMac": "sparse mackerel",
+        "SparseMac_long": "sparsely-striped %{color} tabby",
         "Classic": "classic",
         "Classic_long": "%{color} tabby",
         "Agouti": "agouti",
