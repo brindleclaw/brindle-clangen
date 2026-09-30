@@ -443,7 +443,7 @@ dev_tools = false
   base_male_tortie = 13
 
   # 1/2^(chance/2) that a female cat will be a tortie
-  base_female_tortie = 4
+  base_female_tortie = 3
 
   # base 1/(chance + 1) that a cat will have heterochromia. gets modified further in code
   base_heterochromia = 120
