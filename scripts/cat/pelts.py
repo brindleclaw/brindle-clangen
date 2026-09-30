@@ -761,13 +761,13 @@ class Pelt:
             elif p_ in Pelt.cream_colours:
                 add_weight = (0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 0)
             elif p_ in Pelt.black_colours:
-                add_weight = (0, 0, 0, 30, 0, 15, 0, 4, 2, 4, 2)
+                add_weight = (0, 0, 0, 30, 0, 15, 0, 2, 1, 2, 1)
             elif p_ in Pelt.silblack_colours:
-                add_weight = (0, 0, 0, 15, 30, 10, 20, 4, 2, 4, 2)
+                add_weight = (0, 0, 0, 15, 30, 10, 20, 2, 1, 2, 1)
             elif p_ in Pelt.blue_colours:
-                add_weight = (0, 0, 0, 0, 0, 30, 0, 0, 4, 0, 4)
+                add_weight = (0, 0, 0, 0, 0, 30, 0, 0, 2, 0, 2)
             elif p_ in Pelt.silblue_colours:
-                add_weight = (0, 0, 0, 0, 0, 15, 30, 0, 4, 0, 4)
+                add_weight = (0, 0, 0, 0, 0, 15, 30, 0, 2, 0, 2)
             elif p_ in Pelt.chocolate_colours:
                 add_weight = (0, 0, 0, 0, 0, 0, 0, 30, 20, 4, 2)
             elif p_ in Pelt.lilac_colours:
@@ -777,7 +777,7 @@ class Pelt:
             elif p_ in Pelt.fawn_colours:
                 add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30)
             elif p_ is None:
-                add_weight = (30, 15, 25, 30, 15, 25, 10, 4, 2, 4, 2)
+                add_weight = (20, 10, 20, 20, 10, 20, 10, 2, 2, 2, 2)
             else:
                 add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
