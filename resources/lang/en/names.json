@@ -48,7 +48,7 @@
     "Classic": ["stripe", "swirl"],
     "Sokoke": ["stripe", "swirl"],
     "Agouti": ["fleck"],
-    "Singlestripe": ["stripe"],
+    "Singlestripe": ["fleck"],
     "Masked": ["stripe"],
     "Freckled": ["fleck"],
     "Tortie": ["dapple", "brindle"],
@@ -68,13 +68,26 @@
     "Classic": ["stripe", "swirl", "dapple", "brindle"],
     "Sokoke": ["stripe", "swirl", "dapple", "brindle"],
     "Agouti": ["fleck", "dapple", "brindle"],
-    "Singlestripe": ["stripe", "dapple", "brindle"],
+    "Singlestripe": ["dapple", "brindle"],
     "Masked": ["stripe", "dapple", "brindle"],
     "Freckled": ["fleck", "dapple", "brindle"]
   },
 
   "normal_prefixes": [
-    "White", "Pale", "Snow", "Cloud", "Hail", "Frost", "Rime", "Ice", "Blizzard", "Light", "Bright", "Swan",
+    "White", "Light", "Pale", "Bright",
+    "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
+    "Hare", "Sheep",
+    "Stoat", "Egret", "Swan",
+    "Acacia", "Alison", "Anemone", "Angelica", "Asphodel", "Aster", "Astrantia",
+    "Balm", "Balsam", "Bean", "Bistort", "Campion", "Caraway", "Carrot", "Catalpa",
+    "Celery", "Centaury", "Chamomile", "Cherry", "Chervil", "Clover", "Corydalis",
+    "Cress", "Daffodil", "Dagger", "Daisy", "Dittander", "Dodder", "Elder", "Flax",
+    "Fritillary", "Garlic", "Grass", "Heather", "Heath", "Holly", "Honesty", "Hydrangea",
+    "Kale", "Lantern", "Laurel", "Lily", "Lobelia", "Melilot", "Mespil", "Mezereon",
+    "Mint", "Mullein", "Nettle", "Palm", "Pansy", "Parsley", "Persicaria", "Plantain",
+    "Potato", "Privet", "Radish", "Rocket", "Rose", "Rowan", "Sanicle", "Saxifrage",
+    "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
+    "Yarrow",
     "Gray", "Blue", "Silver", "Light", "Dark",
     "Smoke", "Cinder",
     "Day", "Morning", "Hail", "Rain", "Mist", "Murk", "Fog", "Cloud", "Storm",
@@ -142,11 +155,11 @@
     "Moon", "Sun",
     "Lion", "Tiger", "Leopard", "Jaguar", "Cougar", "Lynx", "Panther", 
     "Day", "Night", "Morning", "Evening", "Dawn", "Dusk", "Twilight",
-    "Copse", "Forest", "Brush", "Hollow", "Twig", "Branch", "Tree", "Wood", 
+    "Copse", "Forest", "Brush", "Hollow", "Twig", "Branch", "Tree", "Wood", "Bough", "Leaf",
     "Lake", "Brook", "Creek", "Bubbling", "Bubble", "Current", "Tide", "Ocean", "Pond",
     "Pool",  "Stream", 
-    "Meadow", "Tunnel", "Glade", "Heath", "Grass", "Hill", 
-    "Cliff", "Mountain", "Bluff", "Cave", "Crag", "Gorge", "Peak", "Valley", "Slope", "Dry",
+    "Meadow", "Tunnel", "Glade", "Heath", "Grass", "Hill", "Moor", "Field", "Dry",
+    "Cliff", "Mountain", "Bluff", "Cave", "Crag", "Gorge", "Peak", "Valley", "Slope",
     "Marsh", "Swamp", "Bog", "Wet",
     "Mist", "Fog", "Murk", "Cloud", "Wisp", "Shade", "Clear", "Hazy", 
     "Droplet", "Drizzle", "Rain", "Storm", "Blizzard", "Snow", "Flurry", "Sleet", "Hail",
@@ -176,7 +189,8 @@
     "FULLWHITE": [
     "White", "Light", "Pale", "Bright",
     "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
-    "Hare", "Sheep", "Stoat", "Egret", "Swan",
+    "Hare", "Sheep",
+    "Stoat", "Egret", "Swan",
     "Acacia", "Alison", "Anemone", "Angelica", "Asphodel", "Aster", "Astrantia",
     "Balm", "Balsam", "Bean", "Bistort", "Campion", "Caraway", "Carrot", "Catalpa",
     "Celery", "Centaury", "Chamomile", "Cherry", "Chervil", "Clover", "Corydalis",
@@ -664,6 +678,23 @@
     "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "LILAC": [
+    "Gray", "Shade", "Dark",
+    "Smoke", "Cinder",
+    "Day", "Morning", "Hail", "Rain", "Mist", "Murk", "Fog", "Cloud", "Storm",
+    "Badger", "Mouse", "Squirrel",
+    "Web",
+    "Lamprey", "Sturgeon", "Eel", "Shad", "Herring", "Anchovy", "Bream", "Bleak", "Asp",
+    "Barbel", "Carp", "Dace", "Bitterling", "Roach", "Chub", "Smelt", "Vendace", 
+    "Powan", "Schelly", "Salmon", "Trout", "Charr", "Grayling", "Mullet", "Saury",
+    "Crane", "Cuckoo", "Dove", "Falcon", "Gadwall", "Goose", "Harrier", "Pigeon",
+    "Alkanet", "Bartsia", "Burdock", "Clover", "Comfrey", "Crocus", "Violet", "Garlic",
+    "Gentian", "Heather", "Honesty", "Hydrangea", "Leek", "Licquorice", "Lucerne", "Mallow",
+    "Marjoram", "Mint", "Orchid", "Pasque", "Plantain", "Potato", "Saxifrage", "Lavender",
+    "Thistle", "Thyme", "Vervain", "Vetch", "Anemone", "Borage", "Bugle", "Clary", "Eryngo",
+    "Flax", "Gentian", "Hyacinth", "Ivy", "Iris", "Lily", "Lobelia", "Lupin", "Pansy", "Camas",
+    "Sage", "Holly", "Squill", "Crocus", "Scabious", "Wisteria", "Daisy", "Nettle", "Heath",
+    "Madder", "Phacelia", "Rocket", "Teasel", "Lucerne", "Limodore",
+    "Alder", "Aspen", "Birch", "Juniper", "Poplar", "Willow", "Fir", "Fig",
     "Golden", "Brown", "Russet", "Tawny", "Dark", "Light", "Pale",
     "Dawn", "Dusk", "Twilight",
     "Dust", "Mud",
@@ -677,7 +708,7 @@
     "Laburnum", "Larch", "Laurel", "Mallow", "Oak", "Palm", "Pine", "Rowan", "Spruce",
     "Tamarisk", "Fern", "Galingale", "Rush", "Sedge",
     "Amanita", "Blusher", "Bolete", "Tuft",
-    "Golden", "Yellow", "Cream", "Light", "Pale", "Bright",
+    "Golden", "Cream", "Light", "Pale", "Bright",
     "Honey", "Sand", "Wax",
     "Lion", "Sheep",
     "Dove", "Jay", "Nightingale",
@@ -726,15 +757,7 @@
     "Sycamore", "Ash", "Alder", "Catalpa", "Cherry", "Cypress", "Elm", "Fir", "Yew",
     "Laburnum", "Larch", "Laurel", "Mallow", "Oak", "Palm", "Pine", "Rowan", "Spruce",
     "Tamarisk", "Fern", "Galingale", "Rush", "Sedge",
-    "Amanita", "Blusher", "Bolete", "Tuft",
-    "Red", "Orange", "Tawny", "Ginger",
-    "Fire", "Flame", "Spark",
-    "Deer", "Fox", "Jaguar", "Leopard", "Mouse", "Squirrel", "Tiger", 
-    "Asphodel", "Balsam", "Myrtle", "Flax", "Marigold", "Montbretia", "Nasturtium", "Pimpernel",
-    "Poppy", "Quince", "Spindle", "Anemone", "Burnet", "Clover", "Cross", "Dock", "Agaric",
-    "Fuchsia", "Orache", "Robin", "Safflower", "Sickener", "Sorrel", "Willow",
-    "Holly", "Cherry", "Rowan", "Yew", 
-    "Tench", "Rudd"
+    "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "CINNTAWNY": [
     "Golden", "Brown", "Russet", "Tawny", "Dark", "Light", "Pale",
@@ -749,15 +772,7 @@
     "Sycamore", "Ash", "Alder", "Catalpa", "Cherry", "Cypress", "Elm", "Fir", "Yew",
     "Laburnum", "Larch", "Laurel", "Mallow", "Oak", "Palm", "Pine", "Rowan", "Spruce",
     "Tamarisk", "Fern", "Galingale", "Rush", "Sedge",
-    "Amanita", "Blusher", "Bolete", "Tuft",
-    "Red", "Orange", "Tawny", "Ginger",
-    "Fire", "Flame", "Spark",
-    "Deer", "Fox", "Jaguar", "Leopard", "Mouse", "Squirrel", "Tiger", 
-    "Asphodel", "Balsam", "Myrtle", "Flax", "Marigold", "Montbretia", "Nasturtium", "Pimpernel",
-    "Poppy", "Quince", "Spindle", "Anemone", "Burnet", "Clover", "Cross", "Dock", "Agaric",
-    "Fuchsia", "Orache", "Robin", "Safflower", "Sickener", "Sorrel", "Willow",
-    "Holly", "Cherry", "Rowan", "Yew", 
-    "Tench", "Rudd"
+    "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "GCINNAMON": [
     "Golden", "Brown", "Russet", "Tawny", "Dark", "Light", "Pale",
@@ -772,15 +787,7 @@
     "Sycamore", "Ash", "Alder", "Catalpa", "Cherry", "Cypress", "Elm", "Fir", "Yew",
     "Laburnum", "Larch", "Laurel", "Mallow", "Oak", "Palm", "Pine", "Rowan", "Spruce",
     "Tamarisk", "Fern", "Galingale", "Rush", "Sedge",
-    "Amanita", "Blusher", "Bolete", "Tuft",
-    "Red", "Orange", "Tawny", "Ginger",
-    "Fire", "Flame", "Spark",
-    "Deer", "Fox", "Jaguar", "Leopard", "Mouse", "Squirrel", "Tiger", 
-    "Asphodel", "Balsam", "Myrtle", "Flax", "Marigold", "Montbretia", "Nasturtium", "Pimpernel",
-    "Poppy", "Quince", "Spindle", "Anemone", "Burnet", "Clover", "Cross", "Dock", "Agaric",
-    "Fuchsia", "Orache", "Robin", "Safflower", "Sickener", "Sorrel", "Willow",
-    "Holly", "Cherry", "Rowan", "Yew", 
-    "Tench", "Rudd"
+    "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "FAWN": [
     "Golden", "Cream", "Light", "Pale", "Bright",
@@ -1211,7 +1218,7 @@
   ],
 
 	"animal_suffixes": [
-		"wing", "step"
+		"flight", "step"
 	],
 
 	"animal_prefixes": [
