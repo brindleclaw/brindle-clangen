@@ -777,7 +777,7 @@ class Pelt:
             elif p_ in Pelt.fawn_colours:
                 add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30)
             elif p_ is None:
-                add_weight = (20, 10, 20, 20, 10, 20, 10, 2, 2, 2, 2)
+                add_weight = (25, 15, 25, 25, 15, 25, 15, 2, 2, 2, 2)
             else:
                 add_weight = (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
