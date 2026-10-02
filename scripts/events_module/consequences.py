@@ -380,6 +380,7 @@ def create_new_cat_block(
                         eyes=chosen_cat.pelt.eye_colour,
                         colour=chosen_cat.pelt.colour,
                         pelt=chosen_cat.pelt.name,
+                        points=chosen_cat.pelt.points,
                         biome=game.clan.biome,
                     )
                     chosen_cat.name.give_suffix(

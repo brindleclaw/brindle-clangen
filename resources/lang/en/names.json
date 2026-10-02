@@ -13,9 +13,19 @@
     "heart", "stream", "breeze", "flower", "storm",
     "cloud", "dusk", "dawn", "shade", "shine", "pool"
   ],
+
 	"pelt_prefixes": {
     "TwoColour": ["Patch", "Blotch", "Rock", "Pebble", "Stone", "Boulder", "Gravel", "Shell", "Lichen"],
-    "Masked": [
+    "Tortie": [
+      "Brindle", "Dapple", "Speckle", "Mottle", "Rock", "Pebble", "Stone",
+      "Boulder", "Gravel", "Shell", "Lichen"],
+    "Calico": [
+      "Patch", "Blotch", "Brindle", "Dapple", "Speckle", "Mottle", "Rock",
+      "Pebble", "Stone", "Boulder", "Gravel", "Shell", "Lichen"]
+  },
+
+  "point_prefixes": {
+    "COLOURPOINT": [
       "White", "Light", "Pale", "Bright",
       "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
       "Hare", "Sheep",
@@ -31,13 +41,40 @@
       "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
       "Yarrow"
     ],
-    "Tortie": [
-      "Brindle", "Dapple", "Speckle", "Mottle", "Rock", "Pebble", "Stone",
-      "Boulder", "Gravel", "Shell", "Lichen"],
-    "Calico": [
-      "Patch", "Blotch", "Brindle", "Dapple", "Speckle", "Mottle", "Rock",
-      "Pebble", "Stone", "Boulder", "Gravel", "Shell", "Lichen"]
+    "RAGDOLL": [
+      "White", "Light", "Pale", "Bright",
+      "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
+      "Hare", "Sheep",
+      "Stoat", "Egret", "Swan",
+      "Acacia", "Alison", "Anemone", "Angelica", "Asphodel", "Aster", "Astrantia",
+      "Balm", "Balsam", "Bean", "Bistort", "Campion", "Caraway", "Carrot", "Catalpa",
+      "Celery", "Centaury", "Chamomile", "Cherry", "Chervil", "Clover", "Corydalis",
+      "Cress", "Daffodil", "Dagger", "Daisy", "Dittander", "Dodder", "Elder", "Flax",
+      "Fritillary", "Garlic", "Grass", "Heather", "Heath", "Holly", "Honesty", "Hydrangea",
+      "Kale", "Lantern", "Laurel", "Lily", "Lobelia", "Melilot", "Mespil", "Mezereon",
+      "Mint", "Mullein", "Nettle", "Palm", "Pansy", "Parsley", "Persicaria", "Plantain",
+      "Potato", "Privet", "Radish", "Rocket", "Rose", "Rowan", "Sanicle", "Saxifrage",
+      "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
+      "Yarrow"
+    ],
+    "SEALPOINT": [
+      "White", "Light", "Pale", "Bright",
+      "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
+      "Hare", "Sheep",
+      "Stoat", "Egret", "Swan",
+      "Acacia", "Alison", "Anemone", "Angelica", "Asphodel", "Aster", "Astrantia",
+      "Balm", "Balsam", "Bean", "Bistort", "Campion", "Caraway", "Carrot", "Catalpa",
+      "Celery", "Centaury", "Chamomile", "Cherry", "Chervil", "Clover", "Corydalis",
+      "Cress", "Daffodil", "Dagger", "Daisy", "Dittander", "Dodder", "Elder", "Flax",
+      "Fritillary", "Garlic", "Grass", "Heather", "Heath", "Holly", "Honesty", "Hydrangea",
+      "Kale", "Lantern", "Laurel", "Lily", "Lobelia", "Melilot", "Mespil", "Mezereon",
+      "Mint", "Mullein", "Nettle", "Palm", "Pansy", "Parsley", "Persicaria", "Plantain",
+      "Potato", "Privet", "Radish", "Rocket", "Rose", "Rowan", "Sanicle", "Saxifrage",
+      "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
+      "Yarrow"
+    ]
   },
+
   "pelt_suffixes": {
     "TwoColour": ["patch"],
     "Tabby": ["stripe", "swirl"],
@@ -58,6 +95,7 @@
     "Tortie": ["dapple", "brindle"],
     "Calico": ["dapple", "brindle", "patch"]
   },
+
   "tortie_pelt_suffixes": {
     "SingleColour": ["dapple", "brindle"],
     "Tabby": ["swirl", "stripe", "dapple", "brindle"],

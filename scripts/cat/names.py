@@ -46,18 +46,20 @@ class Name:
             eyes = cat.pelt.eye_colour
             pelt = cat.pelt.name
             tortie_pattern = cat.pelt.tortie_pattern
+            points = cat.pelt.points
             skills = cat.skills.primary.path.name
         except AttributeError:
             color = None
             eyes = None
             pelt = None
             tortie_pattern = None
+            points = None
             skills = None
 
         name_fixpref = False
         # Set prefix
         if prefix is None:
-            self.give_prefix(eyes, color, pelt, biome)
+            self.give_prefix(eyes, color, pelt, points, biome)
             # needed for random dice when we're changing the Prefix
             name_fixpref = True
 
@@ -71,7 +73,7 @@ class Name:
         if self.suffix and not load_existing_name:
             # check if random die was for prefix
             if name_fixpref:
-                self.give_prefix(eyes, color, pelt, biome)
+                self.give_prefix(eyes, color, pelt, points, biome)
             else:
                 self.give_suffix(eyes, color, pelt, biome, tortie_pattern, skills)
 
@@ -220,7 +222,7 @@ class Name:
         self.cat.change_name(new_prefix=name, new_suffix="")
 
     # Generate possible prefix
-    def give_prefix(self, eyes, colour, pelt, biome):
+    def give_prefix(self, eyes, colour, pelt, points, biome):
         """Generate possible prefix."""
         self.load_localized_names()
 
@@ -237,6 +239,8 @@ class Name:
             )
         if pelt in self.names_dict["pelt_prefixes"]:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
+        if points in self.names_dict["point_prefixes"]:
+            possible_prefix_categories.append(self.names_dict["point_prefixes"][points])
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
 
