@@ -14,7 +14,7 @@
     "cloud", "dusk", "dawn", "shade", "shine", "pool"
   ],
 	"pelt_prefixes": {
-    "TwoColour": ["Patch", "Blotch"],
+    "TwoColour": ["Patch", "Blotch", "Rock", "Pebble", "Stone", "Boulder", "Gravel", "Shell", "Lichen"],
     "Masked": [
       "White", "Light", "Pale", "Bright",
       "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
@@ -31,8 +31,12 @@
       "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
       "Yarrow"
     ],
-    "Tortie": ["Dapple", "Speckle", "Spotted", "Mottle"],
-    "Calico": ["Patch", "Blotch", "Dapple", "Speckle", "Spotted", "Mottle"]
+    "Tortie": [
+      "Brindle", "Dapple", "Speckle", "Mottle", "Rock", "Pebble", "Stone",
+      "Boulder", "Gravel", "Shell", "Lichen"],
+    "Calico": [
+      "Patch", "Blotch", "Brindle", "Dapple", "Speckle", "Mottle", "Rock",
+      "Pebble", "Stone", "Boulder", "Gravel", "Shell", "Lichen"]
   },
   "pelt_suffixes": {
     "TwoColour": ["patch"],
@@ -74,6 +78,7 @@
   },
 
   "normal_prefixes": [
+    "Rock", "Pebble", "Stone", "Boulder", "Gravel", "Shell", "Lichen",
     "White", "Light", "Pale", "Bright",
     "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
     "Hare", "Sheep",
