@@ -9,10 +9,9 @@
     },
 
   "normal_suffixes" : [
-    "fur", "pelt", "tuft", "leap", "fall", "face",
-    "claw", "fang", "whisker", "nose", "throat", "toe", "foot", "tail", "belly",
-    "heart", "storm", "cloud", "dusk", "dawn", "shade", "shine", "leaf",
-    "stream", "breeze", "pool", "flower"
+    "fur", "pelt", "tuft", "face", "leap", "fall",
+    "heart", "stream", "breeze", "flower", "storm",
+    "cloud", "dusk", "dawn", "shade", "shine", "pool"
   ],
 	"pelt_prefixes": {
     "TwoColour": ["Patch"],
@@ -1017,19 +1016,45 @@
     "OLIVE": ["pelt", "fur", "tuft", "fall", "leap"],
     "CATTAIL": ["pelt", "fur", "tuft", "fall", "leap"],
     "GRASSYGREEN": ["pelt", "fur", "tuft", "fall", "leap"],
-    "FERN": ["pelt", "fur", "tuft", "fall", "leap"],
-    "LICHEN": ["pelt", "fur", "tuft", "fall", "leap"],
-    "MOSSY": ["pelt", "fur", "tuft", "fall", "leap"],
-    "LEAF": ["pelt", "fur", "tuft", "fall", "leap"],
-    "AQUAMARINE": ["pelt", "fur", "tuft", "fall", "leap"],
-    "CACTUS": ["pelt", "fur", "tuft", "fall", "leap"],
-    "MAPLE": ["pelt", "fur", "tuft", "fall", "leap"],
-    "LIME": ["pelt", "fur", "tuft", "fall", "leap"],
-    "SAND": ["pelt", "fur", "tuft", "fall", "leap"],
-    "PERIWINKLE": ["pelt", "fur", "tuft", "fall", "leap"],
-    "WILDFIRE": ["pelt", "fur", "tuft", "fall", "leap"]
+    "FERN": ["pelt", "fur", "tuft"],
+    "LICHEN": ["pelt", "fur", "tuft"],
+    "MOSSY": ["pelt", "fur", "tuft"],
+    "LEAF": ["pelt", "fur", "tuft"],
+    "AQUAMARINE": ["pelt", "fur", "tuft"],
+    "CACTUS": ["pelt", "fur", "tuft"],
+    "MAPLE": ["pelt", "fur", "tuft"],
+    "LIME": ["pelt", "fur", "tuft"],
+    "SAND": ["pelt", "fur", "tuft"],
+    "PERIWINKLE": ["pelt", "fur", "tuft"],
+    "WILDFIRE": ["pelt", "fur", "tuft"]
   },
 
+  	"primary_suffixes": {
+    "HUNTER": ["whisker", "whisker", "fang", "nose", "leap"],
+    "FIGHTER": ["claw", "claw", "fang", "fall"],
+    "CLIMBER": ["tail", "tail", "leap"],
+    "SWIMMER": ["toe"],
+    "RUNNER": ["foot"],
+    "STEALTH": ["whisker", "tail", "leap", "dusk", "shade"],
+    "SENSE": ["nose", "nose", "whisker"],
+    "HEALER": ["belly", "belly", "pool"],
+    "KIT": ["throat", "flower", "cloud"],
+    "CAMP": ["nose", "throat", "flower"],
+    "TEACHER": ["throat", "flower", "heart", "storm", "cloud"],
+    "STORY": ["throat", "throat", "stream", "storm", "cloud", "dusk", "dawn"],
+    "LORE": ["throat", "throat", "dusk", "shade", "pool"],
+    "SPEAKER": ["throat", "heart", "stream", "breeze", "storm", "cloud", "shine"],
+    "MEDIATOR": ["throat", "heart", "stream", "flower", "cloud"],
+    "CLEVER": ["throat", "nose", "whisker", "claw", "fang", "belly", "breeze", "shade", "shine"],
+    "INSIGHTFUL": ["throat", "nose", "belly", "stream", "breeze", "shade", "shine", "pool"],
+    "STAR": ["leaf"],
+    "DARK": ["leaf"],
+    "GHOST": ["leaf"],
+    "OMEN": ["shade", "pool", "leaf"],
+    "DREAM": ["throat", "pool", "leaf"],
+    "CLAIRVOYANT": ["shine", "pool", "leaf"],
+    "PROPHET": ["throat", "stream", "breeze", "pool", "leaf"]
+  },
 
   "comment": [
     "Silly names include fandom references, scientific terms, memes, and fantasy/mythology names (ex: Hatsune Miku, Dipole, Meowyman, Charon)",
