@@ -76,7 +76,7 @@ class Name:
         if self.suffix and not load_existing_name:
             # check if random die was for prefix
             if name_fixpref:
-                self.give_prefix(eyes, color, pelt, points, white_patches, biome)
+                self.give_prefix(eyes, color, pelt, tortie_colour, points, white_patches, biome)
             else:
                 self.give_suffix(eyes, color, pelt, biome, tortie_pattern, skills)
 
