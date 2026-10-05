@@ -14,7 +14,6 @@ from scripts.cat.enums import CatRank, CatGroup, CatAge, CatSocial
 from scripts.game_structure.localization import load_lang_resource
 from scripts.housekeeping.datadir import get_save_dir
 
-
 class Name:
     """
     Stores & handles name generation.
@@ -46,20 +45,24 @@ class Name:
             eyes = cat.pelt.eye_colour
             pelt = cat.pelt.name
             tortie_pattern = cat.pelt.tortie_pattern
+            tortie_colour = cat.pelt.tortie_colour
             points = cat.pelt.points
+            white_patches = cat.pelt.white_patches
             skills = cat.skills.primary.path.name
         except AttributeError:
             color = None
             eyes = None
             pelt = None
             tortie_pattern = None
+            tortie_colour = None
             points = None
+            white_patches = None
             skills = None
 
         name_fixpref = False
         # Set prefix
         if prefix is None:
-            self.give_prefix(eyes, color, pelt, points, biome)
+            self.give_prefix(eyes, color, pelt, tortie_colour, points, white_patches, biome)
             # needed for random dice when we're changing the Prefix
             name_fixpref = True
 
@@ -73,7 +76,7 @@ class Name:
         if self.suffix and not load_existing_name:
             # check if random die was for prefix
             if name_fixpref:
-                self.give_prefix(eyes, color, pelt, points, biome)
+                self.give_prefix(eyes, color, pelt, points, white_patches, biome)
             else:
                 self.give_suffix(eyes, color, pelt, biome, tortie_pattern, skills)
 
@@ -222,7 +225,7 @@ class Name:
         self.cat.change_name(new_prefix=name, new_suffix="")
 
     # Generate possible prefix
-    def give_prefix(self, eyes, colour, pelt, points, biome):
+    def give_prefix(self, eyes, colour, pelt, tortie_colour, points, white_patches, biome):
         """Generate possible prefix."""
         self.load_localized_names()
 
@@ -233,6 +236,20 @@ class Name:
             and constants.CONFIG["cat_name_controls"]["allow_eye_names"]
         ):
             possible_prefix_categories.append(self.names_dict["eye_prefixes"][eyes])
+        if (
+            pelt in ("Tortie", "Calico")
+            and colour in self.names_dict["tortie_colour_prefixes"]
+        ):
+            possible_prefix_categories.append(
+                self.names_dict["tortie_colour_prefixes"][colour]
+            )
+        if (
+            pelt in ("Tortie", "Calico")
+            and tortie_colour in self.names_dict["tortie_colour_prefixes"]
+        ):
+            possible_prefix_categories.append(
+                self.names_dict["tortie_colour_prefixes"][tortie_colour]
+            )
         if colour in self.names_dict["colour_prefixes"]:
             possible_prefix_categories.append(
                 self.names_dict["colour_prefixes"][colour]
@@ -241,6 +258,8 @@ class Name:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
         if points in self.names_dict["point_prefixes"]:
             possible_prefix_categories.append(self.names_dict["point_prefixes"][points])
+        if white_patches in self.names_dict["bicolour_prefixes"]:
+            possible_prefix_categories.append(self.names_dict["bicolour_prefixes"][white_patches])
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
 

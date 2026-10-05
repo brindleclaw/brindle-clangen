@@ -75,6 +75,25 @@
     ]
   },
 
+  "bicolour_prefixes": {
+    "FULLWHITE": [
+      "White", "Light", "Pale", "Bright",
+      "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
+      "Hare", "Sheep",
+      "Stoat", "Egret", "Swan",
+      "Acacia", "Alison", "Anemone", "Angelica", "Asphodel", "Aster", "Astrantia",
+      "Balm", "Balsam", "Bean", "Bistort", "Campion", "Caraway", "Carrot", "Catalpa",
+      "Celery", "Centaury", "Chamomile", "Cherry", "Chervil", "Clover", "Corydalis",
+      "Cress", "Daffodil", "Dagger", "Daisy", "Dittander", "Dodder", "Elder", "Flax",
+      "Fritillary", "Garlic", "Grass", "Heather", "Heath", "Holly", "Honesty", "Hydrangea",
+      "Kale", "Lantern", "Laurel", "Lily", "Lobelia", "Melilot", "Mespil", "Mezereon",
+      "Mint", "Mullein", "Nettle", "Palm", "Pansy", "Parsley", "Persicaria", "Plantain",
+      "Potato", "Privet", "Radish", "Rocket", "Rose", "Rowan", "Sanicle", "Saxifrage",
+      "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
+      "Yarrow"
+    ]
+  },
+
   "pelt_suffixes": {
     "TwoColour": ["patch"],
     "Tabby": ["stripe", "swirl"],
@@ -867,6 +886,190 @@
     "Whin", "Woad", "Quince", "Yarrow",
     "Apple",
     "Carp", "Rudd"
+    ]
+  },
+
+  "tortie_colour_prefixes": {
+    "SBLUE": [
+      "Light", "Pale",
+      "Dawn", "Dusk", "Twilight", "Morning", "Evening",
+      "Seal", "Squirrel",
+      "Dove", "Grebe", "Harrier", "Kestrel", "Merlin",
+      "Sycamore"
+    ],
+    "PALEGRAY": [
+      "Light", "Pale",
+      "Dawn", "Dusk", "Twilight", "Morning", "Evening",
+      "Seal", "Squirrel",
+      "Dove", "Grebe", "Harrier", "Kestrel", "Merlin",
+      "Sycamore"
+    ],
+    "BLUE": [
+      "Light", "Pale",
+      "Dawn", "Dusk", "Twilight", "Morning", "Evening",
+      "Seal", "Squirrel",
+      "Dove", "Grebe", "Harrier", "Kestrel", "Merlin",
+      "Sycamore"
+    ],
+    "WARMGRAY": [
+      "Light", "Pale",
+      "Dawn", "Dusk", "Twilight", "Morning", "Evening",
+      "Seal", "Squirrel",
+      "Dove", "Grebe", "Harrier", "Kestrel", "Merlin",
+      "Sycamore"
+    ],
+    "GBLUE": [
+      "Light", "Pale",
+      "Dawn", "Dusk", "Twilight", "Morning", "Evening",
+      "Seal", "Squirrel",
+      "Dove", "Grebe", "Harrier", "Kestrel", "Merlin",
+      "Sycamore"
+    ],
+    "SMBLACK": [
+      "Ember",
+      "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Grebe", "Jay", "Knot"
+    ],
+    "SBLACK": [
+      "Ember",
+      "Seal", "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Gannet", "Grebe", "Jay", "Knot", "Merganser"
+    ],
+    "STARNISHED": [
+      "Ember",
+      "Seal", "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Gannet", "Grebe", "Jay", "Knot", "Merganser"
+    ],
+    "GRAYBROWN": [
+      "Ember",
+      "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Grebe", "Jay", "Knot",
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "BROWN": [
+      "Ember",
+      "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Grebe", "Jay", "Knot",
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "LIGHTBROWN": [
+      "Ember",
+      "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Grebe", "Jay", "Knot",
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "DARKBROWN": [
+      "Ember",
+      "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Grebe", "Jay", "Knot",
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "GBLACK": [
+      "Ember",
+      "Fox",
+      "Weevil",
+      "Brambling", "Bunting", "Duck", "Grebe", "Jay", "Knot",
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "CHOCOLATE": [
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "CHOCRUSSET": [
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "GCHOCOLATE": [
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "LILAC": [
+      "Light", "Pale",
+      "Dawn", "Dusk", "Twilight", "Morning", "Evening",
+      "Seal", "Squirrel",
+      "Dove", "Grebe", "Harrier", "Kestrel", "Merlin",
+      "Sycamore",
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "LILASH": [
+      "Light", "Pale",
+      "Dawn", "Dusk", "Twilight", "Morning", "Evening",
+      "Seal", "Squirrel",
+      "Dove", "Grebe", "Harrier", "Kestrel", "Merlin",
+      "Sycamore"
+    ],
+    "CINNAMON": [
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "CINNTAWNY": [
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
+    ],
+    "GCINNAMON": [
+      "Russet", "Tawny", "Light", "Pale",
+      "Dawn", "Dusk", "Twilight",
+      "Seal", "Deer", "Marten",
+      "Weevil",
+      "Bittern", "Brambling", "Bunting", "Dove", "Harrier", "Knot", "Linnet",
+      "Sycamore"
     ]
   },
 
