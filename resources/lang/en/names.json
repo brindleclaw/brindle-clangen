@@ -91,6 +91,200 @@
       "Potato", "Privet", "Radish", "Rocket", "Rose", "Rowan", "Sanicle", "Saxifrage",
       "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
       "Yarrow"
+    ],
+    "SBLUE": [
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
+    "PALEGRAY": [
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
+    "BLUE": [
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
+    "WARMGRAY": [
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
+    "GBLUE": [
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
+    "SMBLACK": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot"
+    ],
+    "SBLACK": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot"
+    ],
+    "STARNISHED": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot"
+    ],
+    "GRAYBROWN": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "BROWN": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "LIGHTBROWN": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "DARKBROWN": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "GBLACK": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "RED": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel"
+    ],
+    "GINGER": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel"
+    ],
+    "MARMALADE": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel",
+      "Light", "Pale", "Bright",
+      "Egret"
+    ],
+    "YELLOW": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel",
+      "Light", "Pale", "Bright",
+      "Egret"
+    ],
+    "SRED": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel"
+    ],
+    "SGINGER": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel"
+    ],
+    "SMARMALADE": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel"
+    ],
+    "SYELLOW": [
+      "Light", "Pale", "Bright",
+      "Deer", "Fox", "Mouse", "Squirrel"
+    ],
+    "CREAM": [
+      "Light", "Pale", "Bright",
+      "Egret"
+    ],
+    "PALEGINGER": [
+      "Light", "Pale", "Bright",
+      "Egret"
+    ],
+    "CHOCOLATE": [
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "CHOCRUSSET": [
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "GCHOCOLATE": [
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "LILAC": [
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin",
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
+    "LILASH": [
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
+    "CINNAMON": [
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "CINNTAWNY": [
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "GCINNAMON": [
+      "Light", "Pale",
+      "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
+      "Weasel", "Stoat",
+      "Dipper", "Dunlin", "Martin"
+    ],
+    "FAWN": [
+      "Light", "Pale", "Bright",
+      "Egret"
+    ],
+    "FAWSALMON": [
+      "Light", "Pale", "Bright",
+      "Egret"
     ]
   },
 
@@ -248,22 +442,6 @@
   ],
 
   "colour_prefixes": {
-    "FULLWHITE": [
-    "White", "Light", "Pale", "Bright",
-    "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
-    "Hare", "Sheep",
-    "Stoat", "Egret", "Swan",
-    "Acacia", "Alison", "Anemone", "Angelica", "Asphodel", "Aster", "Astrantia",
-    "Balm", "Balsam", "Bean", "Bistort", "Campion", "Caraway", "Carrot", "Catalpa",
-    "Celery", "Centaury", "Chamomile", "Cherry", "Chervil", "Clover", "Corydalis",
-    "Cress", "Daffodil", "Dagger", "Daisy", "Dittander", "Dodder", "Elder", "Flax",
-    "Fritillary", "Garlic", "Grass", "Heather", "Heath", "Holly", "Honesty", "Hydrangea",
-    "Kale", "Lantern", "Laurel", "Lily", "Lobelia", "Melilot", "Mespil", "Mezereon",
-    "Mint", "Mullein", "Nettle", "Palm", "Pansy", "Parsley", "Persicaria", "Plantain",
-    "Potato", "Privet", "Radish", "Rocket", "Rose", "Rowan", "Sanicle", "Saxifrage",
-    "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
-    "Yarrow"
-    ],
     "SBLUE": [
     "Gray", "Silver", "Light", "Pale",
     "Smoke", "Cinder",

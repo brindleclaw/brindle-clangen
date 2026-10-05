@@ -13,6 +13,7 @@ from scripts.game_structure import constants
 from scripts.cat.enums import CatRank, CatGroup, CatAge, CatSocial
 from scripts.game_structure.localization import load_lang_resource
 from scripts.housekeeping.datadir import get_save_dir
+from scripts.cat.pelts import Pelt
 
 class Name:
     """
@@ -238,26 +239,19 @@ class Name:
             possible_prefix_categories.append(self.names_dict["eye_prefixes"][eyes])
         if (
             pelt in ("Tortie", "Calico")
-            and colour in self.names_dict["tortie_colour_prefixes"]
+            and (colour or tortie_colour) in self.names_dict["tortie_colour_prefixes"]
         ):
-            possible_prefix_categories.append(
-                self.names_dict["tortie_colour_prefixes"][colour]
-            )
-        if (
-            pelt in ("Tortie", "Calico")
-            and tortie_colour in self.names_dict["tortie_colour_prefixes"]
-        ):
-            possible_prefix_categories.append(
-                self.names_dict["tortie_colour_prefixes"][tortie_colour]
-            )
+            possible_prefix_categories.append(self.names_dict["tortie_colour_prefixes"][colour or tortie_colour])
         if colour in self.names_dict["colour_prefixes"]:
-            possible_prefix_categories.append(
-                self.names_dict["colour_prefixes"][colour]
-            )
+            possible_prefix_categories.append(self.names_dict["colour_prefixes"][colour])
         if pelt in self.names_dict["pelt_prefixes"]:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
         if points in self.names_dict["point_prefixes"]:
             possible_prefix_categories.append(self.names_dict["point_prefixes"][points])
+        if white_patches in (Pelt.mid_white or Pelt.high_white or Pelt.mostly_white):
+            possible_prefix_categories.append(self.names_dict["bicolour_prefixes"][colour])
+        if white_patches in Pelt.mostly_white:
+            possible_prefix_categories.append(self.names_dict["bicolour_prefixes"]["FULLWHITE"])
         if white_patches in self.names_dict["bicolour_prefixes"]:
             possible_prefix_categories.append(self.names_dict["bicolour_prefixes"][white_patches])
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
