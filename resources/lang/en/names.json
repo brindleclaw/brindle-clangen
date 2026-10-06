@@ -75,7 +75,7 @@
     ]
   },
 
-  "bicolour_prefixes": {
+  "white_patches_prefixes": {
     "FULLWHITE": [
       "White", "Light", "Pale", "Bright",
       "Cloud", "Lightning", "Snow", "Blizzard", "Sleet", "Hail", "Rime", "Frost", "Ice",
