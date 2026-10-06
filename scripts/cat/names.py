@@ -13,6 +13,7 @@ from scripts.game_structure import constants
 from scripts.cat.enums import CatRank, CatGroup, CatAge, CatSocial
 from scripts.game_structure.localization import load_lang_resource
 from scripts.housekeeping.datadir import get_save_dir
+from scripts.cat.pelts import Pelt
 
 
 class Name:
@@ -46,16 +47,18 @@ class Name:
             eyes = cat.pelt.eye_colour
             pelt = cat.pelt.name
             tortie_pattern = cat.pelt.tortie_pattern
+            white_patches = cat.pelt.white_patches
         except AttributeError:
             color = None
             eyes = None
             pelt = None
             tortie_pattern = None
+            white_patches = None
 
         name_fixpref = False
         # Set prefix
         if prefix is None:
-            self.give_prefix(eyes, color, pelt, biome)
+            self.give_prefix(eyes, color, pelt, biome, white_patches)
             # needed for random dice when we're changing the Prefix
             name_fixpref = True
 
@@ -69,7 +72,7 @@ class Name:
         if self.suffix and not load_existing_name:
             # check if random die was for prefix
             if name_fixpref:
-                self.give_prefix(eyes, color, pelt, biome)
+                self.give_prefix(eyes, color, pelt, biome, white_patches)
             else:
                 self.give_suffix(eyes, color, pelt, biome, tortie_pattern)
 
@@ -218,7 +221,7 @@ class Name:
         self.cat.change_name(new_prefix=name, new_suffix="")
 
     # Generate possible prefix
-    def give_prefix(self, eyes, colour, pelt, biome):
+    def give_prefix(self, eyes, colour, pelt, biome, white_patches):
         """Generate possible prefix."""
         self.load_localized_names()
 
@@ -237,6 +240,16 @@ class Name:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
+        if (
+            colour in self.names_dict["white_patches_prefixes"]
+            and white_patches in (Pelt.mid_white or Pelt.high_white or Pelt.mostly_white)
+        ):
+            possible_prefix_categories.append(self.names_dict["white_patches_prefixes"][colour])
+        if (
+            white_patches in Pelt.mostly_white
+            or white_patches in self.names_dict["white_patches_prefixes"]
+        ):
+            possible_prefix_categories.append(self.names_dict["white_patches_prefixes"]["FULLWHITE"])
 
         while True:
             # decided in constants.CONFIG: cat_name_controls

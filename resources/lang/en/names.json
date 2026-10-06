@@ -370,6 +370,85 @@
     ]
   },
 
+  "white_patches_prefixes": {
+    "FULLWHITE": [
+    "WHITE"
+    ],
+    "WHITE": [
+	"BICOLOUR"
+    ],
+    "PALEGREY": [
+	"BICOLOUR"
+    ],
+    "SILVER": [
+	"BICOLOUR"
+    ],
+    "GREY": [
+	"BICOLOUR"
+    ],
+    "DARKGREY": [
+	"BICOLOUR"
+    ],
+    "GHOST": [
+	"BICOLOUR"
+    ],
+    "BLOSSOM": [
+    "BICOLOUR"
+    ],
+	"DAWN": [
+	"BICOLOUR"
+	],
+    "PALEGINGER": [
+	"BICOLOUR"
+    ],
+    "GOLDEN": [
+	"BICOLOUR"
+    ],
+    "HONEY": [
+    "BICOLOUR"
+    ],
+    "GINGER": [
+	"BICOLOUR"
+    ],
+    "DARKGINGER": [
+	"BICOLOUR"
+    ],
+    "SIENNA": [
+	"BICOLOUR"
+    ],
+    "CREAM": [
+	"BICOLOUR"
+    ],
+    "LIGHTBROWN": [
+	"BICOLOUR"
+    ],
+    "LILAC": [
+	"BICOLOUR"
+    ],
+    "BROWN": [
+	"BICOLOUR"
+    ],
+    "GOLDEN-BROWN": [
+	"BICOLOUR"
+    ],
+    "MALLOW": [
+	"BICOLOUR"
+    ],
+    "DARKBROWN": [
+	"BICOLOUR"
+    ],
+    "CHOCOLATE": [
+	"BICOLOUR"
+    ],
+    "RUST":[
+    "BICOLOUR"
+    ],
+    "BLACK": [
+	"BICOLOUR"
+    ]
+    
+  },
+
   "biome_prefixes": {
     "Forest": [
     "Acorn","Almond", "Antler", "Aspen", "Badger", "Bark", "Bat", "Beech", "Birch", "Boar", "Branch", "Branch", "Buck", "Canopy",
