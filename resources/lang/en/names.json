@@ -375,76 +375,76 @@
     "WHITE"
     ],
     "WHITE": [
-	"BICOLOUR"
+	"Birch", "Bright", "Butterfly", "Gravel"
     ],
     "PALEGREY": [
-	"BICOLOUR"
+	"Alder", "Birch", "Butterfly", "Crane", "Gravel"
     ],
     "SILVER": [
-	"BICOLOUR"
+	"Alder", "Birch", "Butterfly", "Crane", "Falcon", "Gravel"
     ],
     "GREY": [
-	"BICOLOUR"
+	"Alder", "Badger", "Birch", "Butterfly", "Crane", "Falcon", "Gravel"
     ],
     "DARKGREY": [
-	"BICOLOUR"
+	"Badger", "Birch", "Butterfly", "Crane", "Falcon", "Gravel"
     ],
     "GHOST": [
-	"BICOLOUR"
+	"Adder", "Alder", "Badger", "Birch", "Butterfly", "Condor", "Crane", "Falcon", "Gravel"
     ],
     "BLOSSOM": [
-    "BICOLOUR"
+    "Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
     ],
 	"DAWN": [
-	"BICOLOUR"
+	"Bright", "Butterfly", "Chaffinch", "Goose", "Gravel"
 	],
     "PALEGINGER": [
-	"BICOLOUR"
+	"Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
     ],
     "GOLDEN": [
-	"BICOLOUR"
+	"Bright", "Butterfly", "Daisy", "Gravel"
     ],
     "HONEY": [
-    "BICOLOUR"
+    "Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
     ],
     "GINGER": [
-	"BICOLOUR"
+	"Bright", "Butterfly"
     ],
     "DARKGINGER": [
-	"BICOLOUR"
+	"Bright", "Butterfly", "Crane"
     ],
     "SIENNA": [
-	"BICOLOUR"
+	"Butterfly", "Crane", "Fallow", "Fawn"
     ],
     "CREAM": [
-	"BICOLOUR"
+	"Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
     ],
     "LIGHTBROWN": [
-	"BICOLOUR"
+	"Bright", "Butterfly", "Chaffinch", "Fallow", "Fawn", "Gravel"
     ],
     "LILAC": [
-	"BICOLOUR"
+	"Butterfly", "Fallow", "Fawn", "Goose", "Gravel"
     ],
     "BROWN": [
-	"BICOLOUR"
+	"Butterfly", "Buzzard", "Duck", "Ermine", "Fallow", "Fawn", "Ferret", "Goose", "Gravel"
     ],
     "GOLDEN-BROWN": [
-	"BICOLOUR"
+	"Butterfly", "Buzzard", "Duck", "Ermine", "Fallow", "Fawn", "Ferret"
     ],
     "MALLOW": [
-	"BICOLOUR"
+	"Butterfly", "Buzzard", "Duck", "Fallow", "Fawn", "Ferret", "Goose", "Gravel"
     ],
     "DARKBROWN": [
-	"BICOLOUR"
+	"Butterfly", "Buzzard", "Duck", "Eagle", "Ermine", "Fallow", "Fawn", "Ferret"
     ],
     "CHOCOLATE": [
-	"BICOLOUR"
+	"Butterfly", "Buzzard", "Duck", "Eagle", "Ermine", "Fallow", "Fawn", "Ferret"
     ],
     "RUST":[
-    "BICOLOUR"
+    "Aspen", "Butterfly", "Buzzard", "Duck", "Eagle", "Ermine"
     ],
     "BLACK": [
-	"BICOLOUR"
+	"Adder", "Aspen", "Badger", "Birch", "Butterfly", "Condor", "Crane", "Ermine"
     ]
     
   },
