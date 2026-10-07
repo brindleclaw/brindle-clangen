@@ -441,6 +441,40 @@
     "Whisper"
   ],
 
+  "single_prefixes": {
+    "BLACK": [
+    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
+    "Bat", "Mole", "Rat", "Sheep", "Shrew",
+    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
+    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
+    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry"
+    ],
+    "BLACKSMOKE": [
+    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
+    "Bat", "Mole", "Rat", "Sheep", "Shrew",
+    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
+    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
+    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
+    "Gray", "Shade", "Dark",
+    "Smoke", "Cinder",
+    "Day", "Morning", "Hail", "Rain", "Mist", "Murk", "Fog", "Cloud", "Storm",
+    "Badger", "Mouse", "Squirrel",
+    "Web",
+    "Lamprey", "Sturgeon", "Eel", "Shad", "Herring", "Anchovy", "Bream", "Bleak", "Asp",
+    "Barbel", "Carp", "Dace", "Bitterling", "Roach", "Chub", "Smelt", "Vendace", 
+    "Powan", "Schelly", "Salmon", "Trout", "Charr", "Grayling", "Mullet", "Saury",
+    "Crane", "Cuckoo", "Dove", "Falcon", "Gadwall", "Goose", "Harrier", "Pigeon",
+    "Alkanet", "Bartsia", "Burdock", "Clover", "Comfrey", "Crocus", "Violet", "Garlic",
+    "Gentian", "Heather", "Honesty", "Hydrangea", "Leek", "Licquorice", "Lucerne", "Mallow",
+    "Marjoram", "Mint", "Orchid", "Pasque", "Plantain", "Potato", "Saxifrage", "Lavender",
+    "Thistle", "Thyme", "Vervain", "Vetch", "Anemone", "Borage", "Bugle", "Clary", "Eryngo",
+    "Flax", "Gentian", "Hyacinth", "Ivy", "Iris", "Lily", "Lobelia", "Lupin", "Pansy", "Camas",
+    "Sage", "Holly", "Squill", "Crocus", "Scabious", "Wisteria", "Daisy", "Nettle", "Heath",
+    "Madder", "Phacelia", "Rocket", "Teasel", "Lucerne", "Limodore",
+    "Alder", "Aspen", "Birch", "Juniper", "Poplar", "Willow", "Fir", "Fig"
+    ]
+  },
+
   "colour_prefixes": {
     "SBLUE": [
     "Gray", "Silver", "Light", "Pale",
@@ -545,11 +579,6 @@
     "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry"
     ],
     "SBLACK": [
-    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
-    "Bat", "Mole", "Rat", "Sheep", "Shrew",
-    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
-    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
-    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
     "Gray", "Silver", "Light", "Pale",
     "Smoke", "Cinder",
     "Day", "Morning", "Hail", "Rain", "Mist", "Murk", "Fog", "Cloud", "Storm",
@@ -569,11 +598,6 @@
     "Alder", "Aspen", "Birch", "Juniper", "Poplar", "Willow", "Fig"
     ],
     "STARNISHED": [
-    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
-    "Bat", "Mole", "Rat", "Sheep", "Shrew",
-    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
-    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
-    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
     "Gray", "Silver", "Light", "Pale",
     "Smoke", "Cinder",
     "Day", "Morning", "Hail", "Rain", "Mist", "Murk", "Fog", "Cloud", "Storm",
@@ -593,11 +617,6 @@
     "Alder", "Aspen", "Birch", "Juniper", "Poplar", "Willow", "Fig"
     ],
     "GRAYBROWN": [
-    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
-    "Bat", "Mole", "Rat", "Sheep", "Shrew",
-    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
-    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
-    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
     "Brown", "Russet", "Tawny", "Dark", "Light", "Pale",
     "Dawn", "Dusk", "Twilight",
     "Dust", "Mud",
@@ -613,11 +632,6 @@
     "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "BROWN": [
-    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
-    "Bat", "Mole", "Rat", "Sheep", "Shrew",
-    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
-    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
-    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
     "Brown", "Russet", "Tawny", "Dark", "Light", "Pale",
     "Dawn", "Dusk", "Twilight",
     "Dust", "Mud",
@@ -633,11 +647,6 @@
     "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "LIGHTBROWN": [
-    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
-    "Bat", "Mole", "Rat", "Sheep", "Shrew",
-    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
-    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
-    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
     "Golden", "Brown", "Russet", "Tawny", "Light", "Pale",
     "Dawn", "Dusk", "Twilight",
     "Dust", "Mud",
@@ -653,11 +662,6 @@
     "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "DARKBROWN": [
-    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
-    "Bat", "Mole", "Rat", "Sheep", "Shrew",
-    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
-    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
-    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
     "Brown", "Russet", "Tawny", "Dark",
     "Dawn", "Dusk", "Twilight",
     "Dust", "Mud",
@@ -673,11 +677,6 @@
     "Amanita", "Blusher", "Bolete", "Tuft"
     ],
     "GBLACK": [
-    "Black", "Dark", "Shade", "Shadow", "Night", "Soot", "Smoke", "Cinder",
-    "Bat", "Mole", "Rat", "Sheep", "Shrew",
-    "Cormorant", "Crow", "Grouse", "Jackdaw", "Raven", "Rook", "Swift", "Ouzel",
-    "Ant", "Beetle", "Fly", "Weevil", "Slug", "Admiral", "Newt",
-    "Ivy", "Privet", "Bean", "Rush", "Sedge", "Sloe", "Alder", "Currant", "Cherry",
     "Golden", "Brown", "Russet", "Tawny", "Dark", "Light", "Pale",
     "Dawn", "Dusk", "Twilight",
     "Dust", "Mud",
