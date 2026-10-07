@@ -463,7 +463,7 @@ dev_tools = false
 [cat_name_controls]
   # set to true if you always want cats named after the color of their pelt
   # if cats can't find a pelt color, they will choose from normal_prefixes
-  always_name_after_appearance = false
+  always_name_after_appearance = true
 
   # allows cats to be named after the color of their eyes
   allow_eye_names = true
