@@ -246,18 +246,24 @@ class Name:
             possible_prefix_categories.append(self.names_dict["colour_prefixes"][colour])
         if pelt in self.names_dict["pelt_prefixes"]:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
-        if points in self.names_dict["point_prefixes"]:
+        if points in self.names_dict["point_prefixes"]: (
             possible_prefix_categories.append(self.names_dict["point_prefixes"][points])
+            and possible_prefix_categories.pop(self.names_dict["colour_prefixes"])
+        )
         if (
             colour in self.names_dict["white_patches_prefixes"]
             and white_patches in (Pelt.mid_white or Pelt.high_white or Pelt.mostly_white)
         ):
             possible_prefix_categories.append(self.names_dict["white_patches_prefixes"][colour])
+        if white_patches in Pelt.high_white:
+            possible_prefix_categories.append(self.names_dict["white_patches_prefixes"]["FULLWHITE"])
         if (
             white_patches in Pelt.mostly_white
             or white_patches in self.names_dict["white_patches_prefixes"]
-        ):
+        ): (
             possible_prefix_categories.append(self.names_dict["white_patches_prefixes"]["FULLWHITE"])
+            and possible_prefix_categories.pop(self.names_dict["colour_prefixes"])
+        )
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
 
