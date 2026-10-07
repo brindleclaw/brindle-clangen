@@ -92,6 +92,20 @@
       "Spurrey", "Tare", "Teasel", "Thistle", "Valerian", "Vetch", "Vine", "Violet",
       "Yarrow"
     ],
+    "BLACK": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot"
+    ],
+    "BLACKSMOKE": [
+      "Sheep", "Shrew",
+      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
+    ],
     "SBLUE": [
       "Light", "Pale",
       "Cloud", "Storm",
@@ -130,53 +144,46 @@
     "SBLACK": [
       "Sheep", "Shrew",
       "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
-      "Gannet", "Goosander", "Goose", "Guillemot"
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
     ],
     "STARNISHED": [
       "Sheep", "Shrew",
       "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
-      "Gannet", "Goosander", "Goose", "Guillemot"
+      "Gannet", "Goosander", "Goose", "Guillemot",
+      "Light", "Pale",
+      "Cloud", "Storm",
+      "Badger", "Hare", "Seal", "Squirrel",
+      "Gull", "Diver", "Falcon", "Grebe", "Heron", "Knot"
     ],
     "GRAYBROWN": [
-      "Sheep", "Shrew",
-      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
-      "Gannet", "Goosander", "Goose", "Guillemot",
       "Light", "Pale",
       "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
       "Weasel", "Stoat",
       "Dipper", "Dunlin", "Martin"
     ],
     "BROWN": [
-      "Sheep", "Shrew",
-      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
-      "Gannet", "Goosander", "Goose", "Guillemot",
       "Light", "Pale",
       "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
       "Weasel", "Stoat",
       "Dipper", "Dunlin", "Martin"
     ],
     "LIGHTBROWN": [
-      "Sheep", "Shrew",
-      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
-      "Gannet", "Goosander", "Goose", "Guillemot",
       "Light", "Pale",
       "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
       "Weasel", "Stoat",
       "Dipper", "Dunlin", "Martin"
     ],
     "DARKBROWN": [
-      "Sheep", "Shrew",
-      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
-      "Gannet", "Goosander", "Goose", "Guillemot",
       "Light", "Pale",
       "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
       "Weasel", "Stoat",
       "Dipper", "Dunlin", "Martin"
     ],
     "GBLACK": [
-      "Sheep", "Shrew",
-      "Avocet", "Bunting", "Ouzel", "Crow", "Diver", "Duck", "Eider",
-      "Gannet", "Goosander", "Goose", "Guillemot",
       "Light", "Pale",
       "Deer", "Hare", "Mink", "Mouse", "Otter", "Seal", "Shrew",
       "Weasel", "Stoat",
