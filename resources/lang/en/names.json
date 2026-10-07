@@ -372,79 +372,103 @@
 
   "white_patches_prefixes": {
     "FULLWHITE": [
-    "WHITE"
+    "White", "White", "Pale", "Snow", "Snowy", "Cloud", "Cloudy", "Milk", "Hail", "Frost", "Frozen", "Freeze", "Ice", "Icy", "Icicle",
+    "Blizzard", "Flurry", "Moon", "Light", "Bone", "Bright", "Swan", "Dove", "Cotton", "Hawthorn", "Laurel", "Wisp", "Silk", "Web",
+    "Fringe", "Ibis", "Air", "Bright", "Rime", "Ghost", "Privet", "Egg", "Glacier", "Goose", "Moth", "Moon", "Down", "Daisy", "Cold",
+    "Gardenia", "Hemlock", "Piper", "Plover", "Magnolia", "Birch", "Shiver", "Snow", "Snowy"
     ],
     "WHITE": [
-	"Birch", "Bright", "Butterfly", "Gravel"
+	"Birch", "Blizzard", "Bright", "Butterfly", "Gravel", "Gull", "Guppy", "Hail", "Light", "Lightning", "Moon", "Moth",
+    "Sleet", "Snowy", "Soft", "Sycamore", "Thunder", "Web", "Whisper", "Whispering", "Pale", "Cloud"
     ],
     "PALEGREY": [
-	"Alder", "Birch", "Butterfly", "Crane", "Gravel"
+	"Alder", "Birch", "Butterfly", "Crane", "Gravel", "Gull", "Guppy", "Jay", "Light", "Lightning", "Moon", "Moth", "Piper",
+    "Plover", "Sky", "Splash", "Squirrel", "Sycamore", "Thunder", "Heron", "Pale", "Cloud"
     ],
     "SILVER": [
-	"Alder", "Birch", "Butterfly", "Crane", "Falcon", "Gravel"
+	"Alder", "Birch", "Butterfly", "Crane", "Falcon", "Gravel", "Gull", "Guppy", "Jay", "Moon", "Moth", "Piper", "Plover",
+    "Sky", "Splash", "Squirrel", "Heron", "Cloud", "Storm"
     ],
     "GREY": [
-	"Alder", "Badger", "Birch", "Butterfly", "Crane", "Falcon", "Gravel"
+	"Alder", "Badger", "Birch", "Butterfly", "Crane", "Falcon", "Gravel", "Gull", "Guppy", "Jay", "Junco", "Moon", "Moth",
+    "Piper", "Plover", "Sky", "Splash", "Squirrel", "Sycamore", "Heron", "Cloud", "Storm"
     ],
     "DARKGREY": [
-	"Badger", "Birch", "Butterfly", "Crane", "Falcon", "Gravel"
+	"Badger", "Birch", "Butterfly", "Crane", "Falcon", "Gravel", "Gull", "Guppy", "Junco", "Moth", "Cloud", "Storm"
     ],
     "GHOST": [
-	"Adder", "Alder", "Badger", "Birch", "Butterfly", "Condor", "Crane", "Falcon", "Gravel"
+	"Adder", "Alder", "Badger", "Birch", "Butterfly", "Condor", "Crane", "Falcon", "Gravel", "Gull", "Guppy", "Junco",
+    "Kite", "Moth", "Cloud", "Storm"
     ],
     "BLOSSOM": [
-    "Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
+    "Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel", "Guppy", "Light", "Lightning", "Lotus", "Moth", "Myrtle",
+    "Primrose", "Thunder", "Yarrow", "Egret", "Pale"
     ],
 	"DAWN": [
-	"Bright", "Butterfly", "Chaffinch", "Goose", "Gravel"
+	"Bright", "Butterfly", "Chaffinch", "Goose", "Gravel", "Guppy", "Hare", "Light", "Lightning", "Moth", "Plover", "Sky",
+    "Squirrel", "Sycamore", "Thunder", "Vixen", "Pale"
 	],
     "PALEGINGER": [
-	"Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
+	"Bright", "Butterfly", "Daisy", "Edelweiss", "Fox", "Gravel", "Guppy", "Light", "Lightning", "Lotus", "Moth", "Myrtle",
+    "Primrose", "Squirrel", "Thunder", "Tiger", "Vixen", "Yarrow", "Pale"
     ],
     "GOLDEN": [
-	"Bright", "Butterfly", "Daisy", "Gravel"
+	"Bright", "Butterfly", "Daisy", "Gravel", "Guppy", "Lightning", "Lotus", "Moth", "Myrtle", "Primrose", "Thunder",
+    "Tiger", "Yarrow"
     ],
     "HONEY": [
-    "Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
+    "Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel", "Guppy", "Light", "Lightning", "Lotus", "Moth", "Myrtle",
+    "Nightingale", "Primrose", "Thunder", "Tiger", "Yarrow", "Pale"
     ],
     "GINGER": [
-	"Bright", "Butterfly"
+	"Bright", "Butterfly", "Daisy", "Fox", "Guppy", "Lotus", "Moth", "Primrose", "Squirrel", "Tiger", "Vixen"
     ],
     "DARKGINGER": [
-	"Bright", "Butterfly", "Crane"
+	"Bright", "Butterfly", "Daisy", "Crane", "Fox", "Guppy", "Lotus", "Moth", "Primrose", "Squirrel", "Tiger", "Vixen"
     ],
     "SIENNA": [
-	"Butterfly", "Crane", "Fallow", "Fawn"
+	"Butterfly", "Crane", "Fallow", "Fawn", "Fox", "Guppy", "Moth", "Mouse", "Squirrel", "Tiger", "Vixen"
     ],
     "CREAM": [
-	"Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel"
+	"Bright", "Butterfly", "Daisy", "Edelweiss", "Gravel", "Guppy", "Lotus", "Moth", "Myrtle", "Primrose", "Yarrow", "Egret",
+    "Pale"
     ],
     "LIGHTBROWN": [
-	"Bright", "Butterfly", "Chaffinch", "Fallow", "Fawn", "Gravel"
+	"Bright", "Butterfly", "Chaffinch", "Fallow", "Fawn", "Gravel", "Grouse", "Guppy", "Hare", "Light", "Moth", "Mouse",
+    "Nightingale", "Piper", "Plover", "Sycamore", "Thrush", "Pale"
     ],
     "LILAC": [
-	"Butterfly", "Fallow", "Fawn", "Goose", "Gravel"
+	"Butterfly", "Fallow", "Fawn", "Goose", "Gravel", "Grouse", "Hare", "Moth", "Mouse", "Plover", "Squirrel", "Stoat",
+    "Sycamore", "Thrush"
     ],
     "BROWN": [
-	"Butterfly", "Buzzard", "Duck", "Ermine", "Fallow", "Fawn", "Ferret", "Goose", "Gravel"
+	"Butterfly", "Buzzard", "Duck", "Ermine", "Fallow", "Fawn", "Ferret", "Goose", "Gravel", "Grouse", "Hare", "Hawk",
+    "Moth", "Mouse", "Nightingale", "Osprey", "Piper", "Plover", "Sparrow", "Stoat", "Sycamore", "Thrush", "Weasel", "Otter"
     ],
     "GOLDEN-BROWN": [
-	"Butterfly", "Buzzard", "Duck", "Ermine", "Fallow", "Fawn", "Ferret"
+	"Butterfly", "Buzzard", "Duck", "Ermine", "Fallow", "Fawn", "Ferret", "Grouse", "Hawk", "Mink", "Moth", "Mouse",
+    "Osprey", "Piper", "Plover", "Sparrow", "Stoat", "Thrush", "Weasel", "Otter"
     ],
     "MALLOW": [
-	"Butterfly", "Buzzard", "Duck", "Fallow", "Fawn", "Ferret", "Goose", "Gravel"
+	"Butterfly", "Buzzard", "Duck", "Fallow", "Fawn", "Ferret", "Goose", "Gravel", "Grouse", "Hare", "Hawk", "Moth",
+    "Mouse", "Nightingale", "Osprey", "Piper", "Plover", "Sparrow", "Squirrel", "Stoat", "Sycamore", "Thrush", "Weasel",
+    "Otter"
     ],
     "DARKBROWN": [
-	"Butterfly", "Buzzard", "Duck", "Eagle", "Ermine", "Fallow", "Fawn", "Ferret"
+	"Butterfly", "Buzzard", "Duck", "Eagle", "Ermine", "Fallow", "Fawn", "Ferret", "Grouse", "Hawk", "Mink", "Moth",
+    "Mouse", "Osprey", "Piper", "Plover", "Quill", "Sparrow", "Stoat", "Thrush", "Weasel", "Otter"
     ],
     "CHOCOLATE": [
-	"Butterfly", "Buzzard", "Duck", "Eagle", "Ermine", "Fallow", "Fawn", "Ferret"
+	"Butterfly", "Buzzard", "Duck", "Eagle", "Ermine", "Fallow", "Fawn", "Ferret", "Grouse", "Hawk", "Mink", "Moth",
+    "Mouse", "Osprey", "Quill", "Sparrow", "Stoat", "Weasel", "Otter"
     ],
     "RUST":[
-    "Aspen", "Butterfly", "Buzzard", "Duck", "Eagle", "Ermine"
+    "Aspen", "Butterfly", "Buzzard", "Duck", "Eagle", "Ermine", "Grouse", "Hawk", "Mink", "Moth", "Mouse", "Osprey",
+    "Quill", "Sparrow", "Stoat", "Swift", "Weasel", "Otter"
     ],
     "BLACK": [
-	"Adder", "Aspen", "Badger", "Birch", "Butterfly", "Condor", "Crane", "Ermine"
+	"Adder", "Aspen", "Badger", "Birch", "Butterfly", "Condor", "Crane", "Ermine", "Gull", "Guppy", "Kite", "Moth",
+    "Quill", "Stork", "Swallow", "Swift", "Crow"
     ]
     
   },
