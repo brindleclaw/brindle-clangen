@@ -381,6 +381,7 @@ def create_new_cat_block(
                         colour=chosen_cat.pelt.colour,
                         pelt=chosen_cat.pelt.name,
                         tortie_colour=chosen_cat.pelt.tortie_colour,
+                        tortie_pattern=chosen_cat.pelt.tortie_pattern,
                         points=chosen_cat.pelt.points,
                         white_patches=chosen_cat.pelt.white_patches,
                         biome=game.clan.biome,

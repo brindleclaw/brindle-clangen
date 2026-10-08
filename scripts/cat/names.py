@@ -63,7 +63,7 @@ class Name:
         name_fixpref = False
         # Set prefix
         if prefix is None:
-            self.give_prefix(eyes, color, pelt, tortie_colour, points, white_patches, biome)
+            self.give_prefix(eyes, color, pelt, tortie_colour, tortie_pattern, points, white_patches, biome)
             # needed for random dice when we're changing the Prefix
             name_fixpref = True
 
@@ -77,7 +77,7 @@ class Name:
         if self.suffix and not load_existing_name:
             # check if random die was for prefix
             if name_fixpref:
-                self.give_prefix(eyes, color, pelt, tortie_colour, points, white_patches, biome)
+                self.give_prefix(eyes, color, pelt, tortie_colour, tortie_pattern, points, white_patches, biome)
             else:
                 self.give_suffix(eyes, color, pelt, biome, tortie_pattern, skills)
 
@@ -226,7 +226,7 @@ class Name:
         self.cat.change_name(new_prefix=name, new_suffix="")
 
     # Generate possible prefix
-    def give_prefix(self, eyes, colour, pelt, tortie_colour, points, white_patches, biome):
+    def give_prefix(self, eyes, colour, pelt, tortie_colour, tortie_pattern, points, white_patches, biome):
         """Generate possible prefix."""
         self.load_localized_names()
 
@@ -243,39 +243,52 @@ class Name:
         ):
             possible_prefix_categories.append(self.names_dict["tortie_colour_prefixes"][colour or tortie_colour])
         if (
-            pelt == ("SingleColour" or "TwoColour")
+            (pelt == ("SingleColour" or "TwoColour")
+            or tortie_pattern == "single")
             and colour in (Pelt.black_colours or Pelt.silblack_colours)
         ):
             possible_prefix_categories.append(self.names_dict["single_prefixes"]["BLACK"])
         if (
-            pelt == "Smoke"
+            (pelt == "Smoke" or tortie_pattern == "smoke")
             and colour in Pelt.black_colours
         ):
             possible_prefix_categories.append(self.names_dict["single_prefixes"]["BLACKSMOKE"])
         if (
             colour in self.names_dict["colour_prefixes"]
-            and self.names_dict["single_prefixes"][("BLACK" or "BLACKSMOKE")] not in possible_prefix_categories
+            and self.names_dict["single_prefixes"]["BLACK"] not in possible_prefix_categories
+            and self.names_dict["single_prefixes"]["BLACKSMOKE"] not in possible_prefix_categories
         ):
             possible_prefix_categories.append(self.names_dict["colour_prefixes"][colour])
+        if (
+            pelt in ("Tortie", "Calico")
+            and (colour or tortie_colour) in (Pelt.red_colours or Pelt.silred_colours)
+            and (colour or tortie_colour) in self.names_dict["single_prefixes"]
+            and (self.names_dict["single_prefixes"]["BLACK"]
+            or self.names_dict["single_prefixes"]["BLACKSMOKE"]) in possible_prefix_categories
+        ):
+            possible_prefix_categories.append(self.names_dict["single_prefixes"][colour or tortie_colour])
         if pelt in self.names_dict["pelt_prefixes"]:
             possible_prefix_categories.append(self.names_dict["pelt_prefixes"][pelt])
         if points in self.names_dict["point_prefixes"]:
             possible_prefix_categories.append(self.names_dict["point_prefixes"][points])
         if (
             white_patches in (Pelt.mid_white or Pelt.high_white or Pelt.mostly_white)
-            and Pelt == "TwoColour"
+            and (pelt == ("SingleColour" or "TwoColour")
+            or tortie_pattern == "single")
             and colour in (Pelt.black_colours or Pelt.silblack_colours)
         ):
             possible_prefix_categories.append(self.names_dict["white_patches_prefixes"]["BLACK"])
         if (
             white_patches in (Pelt.mid_white or Pelt.high_white or Pelt.mostly_white)
-            and Pelt == "Smoke"
+            and (pelt == "Smoke" or tortie_pattern == "smoke")
             and colour in Pelt.black_colours
         ):
             possible_prefix_categories.append(self.names_dict["white_patches_prefixes"]["BLACKSMOKE"])
         if (
             colour in self.names_dict["white_patches_prefixes"]
             and white_patches in (Pelt.mid_white or Pelt.high_white or Pelt.mostly_white)
+            and self.names_dict["white_patches_prefixes"]["BLACK"] not in possible_prefix_categories
+            and self.names_dict["white_patches_prefixes"]["BLACKSMOKE"] not in possible_prefix_categories
         ):
             possible_prefix_categories.append(self.names_dict["white_patches_prefixes"][colour])
         if (
@@ -286,15 +299,15 @@ class Name:
         if (
             self.names_dict["colour_prefixes"][colour] in possible_prefix_categories
             and (points in self.names_dict["point_prefixes"]
-                or white_patches in Pelt.mostly_white
-                or white_patches in self.names_dict["white_patches_prefixes"])
+            or white_patches in Pelt.mostly_white
+            or white_patches in self.names_dict["white_patches_prefixes"])
         ):
             possible_prefix_categories.remove(self.names_dict["colour_prefixes"][colour])
         if (
             self.names_dict["single_prefixes"][("BLACK" or "BLACKSMOKE")] in possible_prefix_categories
             and (points in self.names_dict["point_prefixes"]
-                or white_patches in Pelt.mostly_white
-                or white_patches in self.names_dict["white_patches_prefixes"])
+            or white_patches in Pelt.mostly_white
+            or white_patches in self.names_dict["white_patches_prefixes"])
         ):
             possible_prefix_categories.remove(self.names_dict["single_prefixes"][("BLACK" or "BLACKSMOKE")])
         if biome is not None and biome in self.names_dict["biome_prefixes"]:
