@@ -1,0 +1,35 @@
+{
+    "name": "SparseStripeRecipe",
+    "layer_order": ["1", "2", "3", ["7", "+opacity: 70"], "4", ["5", "6"]],
+    "layers": {
+        "6":{
+            "group_name": "SPARSESTRIPEPATTERN",
+            "blend_mode": "mask"
+        },
+        "5":{
+            "group_name": "BASICPATTERNGRAD",
+            "color": "pattern_gradient_top"
+        },
+        "4":{
+            "group_name": "SPARSESTRIPEPATTERN",
+            "color": "pattern"
+        },
+        "7":{
+            "group_name": "TICKEDTOPGRAD",
+            "color": "pattern"
+        },
+        "3": {
+            "group_name": "SIMPLETOPGRAD",
+            "color": "base_gradient_top"
+        },
+        "2": {
+            "group_name": "SIMPLEBOTTOMGRAD",
+            "color": "base_gradient_bottom"
+        },
+        "1":{
+            "group_name": "BASEMASK",
+            "color": "base"
+        }
+    },
+    "exceptions": []
+}
